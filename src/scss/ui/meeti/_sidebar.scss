@@ -1,0 +1,22 @@
+@use "base/variables" as v;
+
+.sidebar {
+  &__imagen {
+    img {
+      width: 100%;
+    }
+  }
+  &__info {
+    background-color: v.$secundario;
+    color: v.$blanco;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  &__nombre,
+  &__texto {
+    color: v.$blanco;
+  }
+  &__label {
+    font-weight: 700;
+  }
+}
